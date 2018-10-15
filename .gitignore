@@ -1,0 +1,10 @@
+# Random stuff in the directory I don't want committed.
+test.js
+tst.js
+yarn.lock
+package.json
+
+# For obvious reasons
+node_modules
+
+#VS code stuff
