@@ -17,7 +17,7 @@ package math;
 
   ## Getting Started
   This file provides a way to interact with the code residing within `MyMath.java`. The files are linked via
-  a package named `math`. Make sure when you interact with this code that you have `pacakge math;` at the top 
+  a package named `math`. Make sure when you interact with this code that you have `package math;` at the top 
   of the file as well as a package named math housing both the `MyMath.java` and `MyMathTest.java`.
 
   **note: the behavior of this program is detailed in depth on each method. Refer below for code behavior.**
@@ -124,7 +124,7 @@ public class MyMathTest {
 		}
 		
 		// Not pretty, but this is how we will slice off the extra white space and extra comma
-        // on the very last value.		
+    // on the very last value.		
 		tenValuesPerLine = slice(tenValuesPerLine,2);
 		
 		// This prints our remaining prime numbers which doesn't have a length of 10.

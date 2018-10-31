@@ -82,7 +82,7 @@ public class MyMath {
  * because if a prime number is defined as P = 1 * P, then a non-prime number is defined
  * as a number with any two factors that aren't 1 and P or.. NP = a * b.
  * If both a and b were greater than the square root of a given number, then their
- * product would be larger than the current number. So a or be can either be less than
+ * product would be larger than the current number. So a or b can either be less than
  * or equal to the floored square root of a given number. Each iteration of the loop
  * checks if the currentNumber has i as a factor. If the modulus of 
  * anything other than 1 or currentNumber is 0, then that means there's factors, so 

@@ -68,7 +68,7 @@ public static void drawRocket() {
 
   if (rocketStageWidth == 1) {
     System.out.println("You can't have a rocket with a width or height of 1 or less.");
-    System.out.println("Please provide a different dimensions");
+    System.out.println("Please provide different dimensions");
     main(args);
   }
 
@@ -135,15 +135,6 @@ public static void shiftToTheRight(int coneRowCount) {
   }
 }
 
-
-
-
-
-/*
-*/
-// public static void drawConeBody() {
-  
-// }
 
 
 
@@ -354,5 +345,5 @@ Pleasue provide the number of rocket stages: 2
 
 //The pattern appears to be that the first rows shift is N times to the right, where 
 //N = number of cone rows. This N decrements on each subsequent row in terms of rightward shifts.
-//The other patter is that for odd widths, the number of gaps follows a 1,3,5,7 pattern, and even widths
+//The other pattern is that for odd widths, the number of gaps follows a 1,3,5,7 pattern, and even widths
 //for gaps follow a 2,4,6,8 pattern.
