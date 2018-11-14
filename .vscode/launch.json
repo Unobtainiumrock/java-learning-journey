@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MyMathTest",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "mainClass": "math.MyMathTest",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - A8_1",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "mainClass": "A8_1",
+      "args": ""
+    }
+  ]
+}
