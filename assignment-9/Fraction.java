@@ -8,24 +8,28 @@ November, 12 2018
 Instructor: Dave Harden
 
 TODO: • clean up later
-	  • change "about" to markdown
-	  • add handling for mixed fractions
-	  • add better comments
-
-Prompt: Write a Fraction class whose objects will represent fractions. You should provide the following class methods:
-Two constructors, a parameter-less constructor that assigns the value 0 to the Fraction, and a constructor that takes two parameters. The first parameter will represent the initial numerator of the Fraction, and the second parameter will represent the initial denominator of the Fraction.
-Arithmetic operations that add, subtract, multiply, and divide Fractions. These should be implemented as value returning methods that return a Fraction object. They should be named addedTo, subtract, multipliedBy, and dividedBy.
-A boolean operation named isEqualTo that compares two Fraction objects for equality.
-An output operation named print that displays the value of a Fraction object on the screen in the form numerator/denominator.
-Your class should have exactly two private data members, one to represent the numerator of the fraction being represented, and one to represent the denominator of the fraction being represented.
+	    • change "about" to markdown
+	    • add handling for mixed fractions
+	    • add better comments
+	    • Change divideBy to just call an inverse function of an add.
+	    • Change subtract to just call a negation function of an add
 
 
-About: This application does arithmetic on fractions. It doesn't handle negative numbers,
-or bother to convert into mixed numbers.
+# Prompt
+  Write a Fraction class whose objects will represent fractions. You should provide the following class methods:
+  Two constructors, a parameter-less constructor that assigns the value 0 to the Fraction, and a constructor that takes two parameters.
+  The first parameter will represent the initial numerator of the Fraction, and the second parameter will represent the initial denominator
+  of the Fraction. Arithmetic operations that add, subtract, multiply, and divide Fractions. These should be implemented as value returning
+  methods that return a Fraction object. They should be named addedTo, subtract, multipliedBy, and dividedBy.
+  A boolean operation named isEqualTo that compares two Fraction objects for equality. An output operation named print that displays the
+  value of a Fraction object on the screen in the form numerator/denominator.
+  Your class should have exactly two private data members, one to represent the numerator of the fraction being represented, and one to represent
+  the denominator of the fraction being represented.
 
-NOTE: I originally had these methods set up to take in fraction a and fraction b and 
-	  return a fraction c. I later changed it because I realized it wasn't what was expected, hence the fraction b naming.
-
+## About 
+  This application does arithmetic on fractions. It doesn't handle negative numbers,
+  or bother to convert into mixed numbers.
+  
 */
 
 public class Fraction {
@@ -173,7 +177,12 @@ public class Fraction {
 		System.out.println(this.numerator + "/" + this.denominator);
 	}
 	
-	// Fins the common denominator between two fractions.
+	
+	
+	
+	
+	
+	// 
 	public int commonDenominator(int a,Fraction b) {
 			int lcd = a * b.denominator;
 			return lcd;

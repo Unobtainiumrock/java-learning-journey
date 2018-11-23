@@ -3,6 +3,7 @@ test.js
 tst.js
 yarn.lock
 package.json
+Todo.md
 
 # For obvious reasons
 node_modules
