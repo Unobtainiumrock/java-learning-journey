@@ -9,16 +9,16 @@ package math;
   I've started to add markdown style stuff, so I can easily copy and paste this into README.md's for when
   I push solutions to GitHub.
 
-  # What It Is
+  #What It Is
   This is a file containing logic for interacting with `MyMath`'s `isPrime()` and `isPerfect()` method's algorithms.
   This file contains a basic CLI menu interface with various options for which method you'd like to run. It also
   contains logic for printing out the information to the CLI.
 
 
-  ## Getting Started
+  ##Getting Started
   This file provides a way to interact with the code residing within `MyMath.java`. The files are linked via
   a package named `math`. Make sure when you interact with this code that you have `package math;` at the top 
-  of the file as well as a package named math housing both the `MyMath.java` and `MyMathTest.java`.
+  of this file, as well as a package named math housing both the `MyMath.java` and `MyMathTest.java` files.
 
   **note: the behavior of this program is detailed in depth on each method. Refer below for code behavior.**
 */

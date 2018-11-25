@@ -1,3 +1,4 @@
+package com.unobtainumrock.wordcruncher;
 /*
   Nicholas Fleischhauer
   CIS 254
@@ -5,7 +6,7 @@
   November, 24 2018
   Instructor: Dave Harden
 
-  # Prompt
+  #Prompt
   Write the Java code for the class WordCruncher. Include the following members:
 
   **Default Constructor**
@@ -62,12 +63,10 @@
     A character that is a match except for the case (uppercase instead of lowercase or vice versa)
     should be counted as an occurrence.
 
-  ### Sources
+  ###Sources
   https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html#compile(java.lang.String)
   https://www.regular-expressions.info/unicode.html#prop
 */
-
-package com.unobtainumrock.wordcruncher;
 
 import java.util.regex.*;
 
@@ -99,11 +98,21 @@ public class WordCruncher {
 		this("default");
 	}
 
+
+
+
+
+
 	// A method int numLetters() that returns the number of letters in the instance
 	// variable.
 	public int numLetters() {
 		return this.word.length();
 	}
+
+
+
+
+
 
 	/*
 	 * Returns the number of vowels in a string using a custom regex for vowels
@@ -125,7 +134,12 @@ public class WordCruncher {
 		}
 
 		return occurrences;
-	}
+  }
+  
+
+
+
+
 
 	/*
 	 * This method checks if this class' instance variable begins with a vowel and
@@ -139,6 +153,11 @@ public class WordCruncher {
 
 		return m.matches();
 	}
+
+
+
+
+
 
 	/*
 	 * This method either slices off the first letter from this class' instance
@@ -162,6 +181,11 @@ public class WordCruncher {
 
 	}
 
+
+
+
+
+
 	/*
 	 * This method returns a gibberish version of this class' instance variable. It
 	 * follows the gibberish rules outlined in the prompt above.
@@ -176,7 +200,12 @@ public class WordCruncher {
 			gibberish = this.word.substring(1, this.word.length());
 			return firstLtr + "ithag" + gibberish;
 		}
-	}
+  }
+  
+
+
+
+
 
 	/*
 	 * This method simply returns a reversed version of this class' instance
@@ -190,7 +219,12 @@ public class WordCruncher {
 			reversed += this.word.charAt(i);
 		}
 		return reversed;
-	}
+  }
+  
+
+
+
+
 
 	/*
 	 * Returns a count of the number of times the parameter char ch occurs in the
@@ -207,6 +241,11 @@ public class WordCruncher {
 		return occurrences;
 	}
 
+
+
+
+
+
 	/*
 	 * Uses a regex to match a single character belonging to the "letter" category.
 	 * When combined with the .find() method, we can return true whenever a
@@ -220,6 +259,11 @@ public class WordCruncher {
 		return b;
 	}
 
+
+
+
+
+
 	/*
 	 * This method returns a lower-case version of a letter found at a specific
 	 * index within a string.
@@ -227,7 +271,12 @@ public class WordCruncher {
 	public String ltrAtIndex(int index) {
 		// return Character.toString(this.word.charAt(index)).toLowerCase();
 		return this.word.toLowerCase().substring(index, index + 1);
-	}
+  }
+  
+
+
+
+  
 
 	// A method String toString() that returns the instance variable.
 	@Override
