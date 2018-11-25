@@ -2,6 +2,16 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Driver",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "mainClass": "Driver",
+      "args": ""
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - MyMathTest",
       "request": "launch",
       "cwd": "${workspaceFolder}",
