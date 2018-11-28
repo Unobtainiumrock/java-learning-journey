@@ -89,7 +89,11 @@ public class WordCruncherTest {
 		char ch;
 
 		System.out.print("Please enter a single character to find out out many times it occurs: ");
-		userChoice = input.next();
+    userChoice = input.next();
+    
+    if (userChoice.toLowerCase().equals("quit")) {
+			System.out.println("Goodbye!");
+		}
 
 		if (userChoice.length() > 1) {
 			System.out.println("You entered more than a single character. Please try again with a single character");

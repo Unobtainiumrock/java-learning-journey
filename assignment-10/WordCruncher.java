@@ -276,7 +276,7 @@ public class WordCruncher {
 
 
 
-  
+
 
 	// A method String toString() that returns the instance variable.
 	@Override
